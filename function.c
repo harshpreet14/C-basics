@@ -24,7 +24,11 @@ int main(void) {
   return 0;
 }
 
-//the program doesn't work if the function is not declared before main(), it is not a problem if function is defined after the main() function. 
+/*the program doesn't work if the function is not declared before main(), it is not a problem if function is defined after the main() function. 
+
+The declaration tells the compiler about the function's name, return type, and parameters, without providing the actual implementation.
+*/
+
 #include<stdio.h>
 
 void sum();
