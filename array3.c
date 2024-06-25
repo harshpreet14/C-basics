@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define N 5
-
+//no bound checking in C, if we try to access students[5], it will give a garbage value.
 int main(void)
 {
   int students[] = {1, 2, 3, 4};
